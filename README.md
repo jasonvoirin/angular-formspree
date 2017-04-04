@@ -9,7 +9,7 @@ No dependencies are required. However, angular-formspree was built with bootstra
 
 ## Setup Instructions
 1. Add the angular-formspree directive script tag in your header: <br>
-<pre><code>\<script src="js/directives/angular-formspree.js"></script></code></pre>
+<pre><code><script src="js/directives/angular-formspree.js"></script></code></pre>
 2. Add 'angularFormspree' as a module dependancy:
 <pre><code>angular.module('yourAppModule', ['angularFormspree']);</code></pre>
 3. In the angular-formspree directive, set your timer and list your image locations in the “scope.images” array: <br>
