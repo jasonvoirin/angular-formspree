@@ -12,9 +12,8 @@ No dependencies are required. However, angular-formspree was built with bootstra
 <pre><code><script src="js/directives/angular-formspree.js"></script></code></pre>
 2. Add 'angularFormspree' as a module dependancy:
 <pre><code>angular.module('yourAppModule', ['angularFormspree']);</code></pre>
-3. In the angular-formspree directive, set your timer and list your image locations in the “scope.images” array: <br>
-<pre><code>
-//1. Add the email you want the messages to be sent<br>
+3. In the angular-formspree directive, set your email, email_subject and messages: <br>
+<pre><code>//1. Add the email you want the messages to be sent<br>
 var email = "jasonvoirin@gmail.com";<br>
 //2. Add the email subject line <br>
 var email_subject = "JasonVoirin.com Contact Form Submission";<br>
