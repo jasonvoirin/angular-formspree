@@ -1,4 +1,4 @@
-(function (app) {
+(function () {
 	//Created by Jason Voirin http://www.jasonvoirin.com and http://github.com/jasonvoirin
     'use strict';
     angular.module('angularFormspree', []).directive('angularFormspree', angularFormspree);
@@ -77,4 +77,4 @@
 		link: init
 	  };
 	};
-}(NMS.app));
+}());
